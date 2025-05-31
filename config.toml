@@ -7,9 +7,6 @@ DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 enableRobotsTXT = true
 
-# Please enable this feature if the site is available in Japanese, Chinese or Korean.
-#hasCJKLanguage = true
-
 # If you're using Google Analytics, you can enable this feature.
 #googleAnalytics = "UA-12345678-1"
 
@@ -18,8 +15,8 @@ enableRobotsTXT = true
 
 [params]
 
-  showBlog = true
-  mainSections = ['blog']
+  showBlog = false
+  mainSections = ['products']
   googleFonts = true
 
   [params.logo]
@@ -29,9 +26,6 @@ enableRobotsTXT = true
     # The size parameter is the class name of tailwindcss
     # https://tailwindcss.com/
     size = "h-14"
-
-  [params.site]
-    name = "Tella"
 
   [params.icon]
     #If you want to use FontAwesome, set this parameter to true.
@@ -52,30 +46,18 @@ enableRobotsTXT = true
 
   [[menu.main]]
     identifier = "products"
-    name = "Products"
+    name = "Productos"
     url = "/products/"
     weight = 1
 
   [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog/"
+    identifier = "services"
+    name = "Servicios"
+    url = "/services/"
     weight = 2
 
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 3
-
-  [[menu.main]]
     identifier = "contact"
-    name = "Contact"
+    name = "Contactanos"
     url = "/contact/"
-    weight = 4
-
-  # Footer Menu
-  [[menu.footer]]
-    name = "Home"
-    url = "/"
-      weight = 1
+    weight = 3
