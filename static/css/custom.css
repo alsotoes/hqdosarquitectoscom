@@ -26,3 +26,20 @@ h1.title {
 div.content p {
     color: #fff;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.social-column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.social-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
