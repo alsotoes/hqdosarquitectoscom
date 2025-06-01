@@ -13,11 +13,29 @@ enableRobotsTXT = true
 # Disqus Comment System
 #disqusShortname = ""
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.asciidocExt]
+    backend = 'html5'
+    extensions = []
+    failureLevel = 'fatal'
+    noHeaderOrFooter = true
+    preserveTOC = false
+    safeMode = 'unsafe'
+    sectionNumbers = false
+    trace = false
+    verbose = false
+    workingFolderCurrent = false
+    [markup.asciidocExt.attributes]
+
 [params]
 
   showBlog = false
   mainSections = ['products']
   googleFonts = true
+  ignoreLogs = ['warning-goldmark-raw-html']
 
   [params.logo]
     main = "img/logo/hqdos4-284x108.png"
@@ -32,15 +50,12 @@ enableRobotsTXT = true
     fontawesome = true
 
   [params.homepage_meta_tags]
-    meta_description = "A Hugo Theme for OSSProject, Companies, Organization..."
-    meta_og_title = "Tella"
-    meta_og_type = "website"
-    meta_og_url = "https://tella.pages.dev"
-    meta_og_image = "https://raw.githubusercontent.com/opera7133/tella/master/images/tn.png"
-    meta_og_description = "A Hugo Theme for OSSProject, Companies, Organization..."
-    meta_twitter_card = "summary_large_image"
-    meta_twitter_site = "@username"
-    meta_twitter_creator = "@username"
+    meta_description = "Soluciones Automáticas que Impulsan tu Proyecto: Innovación en Puertas, Andenes y Accesos para Espacios Industriales y Residenciales."
+    meta_og_title = "hqdosarquitectos"
+    meta_og_type = "hqdosarquitectos"
+    meta_og_url = "https://hqdosarquitectos.com"
+    meta_og_image = "https://hqdosarquitectos.com/img/logo/hqdos4-284x108.png"
+    meta_og_description = "Soluciones Automáticas que Impulsan tu Proyecto: Innovación en Puertas, Andenes y Accesos para Espacios Industriales y Residenciales."
 
 [menu]
 
