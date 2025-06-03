@@ -1,4 +1,4 @@
-baseURL = 'https://www.hqdosarquitectos.com/'
+baseURL = '/hqdosarquitectoscom/'
 languageCode = 'en-us'
 title = 'HQ2 Arquitectos.'
 theme = 'tella'
